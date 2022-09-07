@@ -1,6 +1,10 @@
 name: python 3.10
+channels:
+  - conda-forge
 dependencies:
   - python=3.10
-  - MLcps
+  - pip
+  - pip:
+    - MLcps==0.1.4.dev0
   
 
