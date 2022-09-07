@@ -6,6 +6,5 @@ dependencies:
   - pip
   - pip:
     - MLcps==0.1.4.dev0
-    - plotly
   
 
