@@ -1,0 +1,13 @@
+LICENSE.toml
+README.md
+pyproject.toml
+setup.cfg
+src/MLcps/GridSearchCV-object.pickle
+src/MLcps/__init__.py
+src/MLcps/getCPS.py
+src/MLcps/metrices.csv
+src/MLcps.egg-info/PKG-INFO
+src/MLcps.egg-info/SOURCES.txt
+src/MLcps.egg-info/dependency_links.txt
+src/MLcps.egg-info/requires.txt
+src/MLcps.egg-info/top_level.txt
