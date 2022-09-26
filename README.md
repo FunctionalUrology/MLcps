@@ -14,7 +14,7 @@ install.packages(c('radarchart','tibble','dplyr'),dependencies = TRUE,repos="htt
 
 # Installation
 ```
-pip install MLcps==0.0.1
+pip install MLcps
 ```
 
 # Binder environment for MLcps
