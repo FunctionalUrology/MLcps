@@ -2,7 +2,7 @@
 **MLcps: Machine Learning cumulative performance score** is a performance metric that combines multiple performance metrics and reports a cumulative score enabling researchers to compare the ML models using a single metric. MLcps provides a comprehensive platform to identify the best-performing ML model on any given dataset.
 
 # Requirements
-#### ***Note***: If you want to use MLcps without installing it in your local machine, please follow [Binder environment for MLcps](#binder-environment-for-mlcps) section.  
+#### ***Note***: If you want to use MLcps without installing it on your local machine, please follow [Binder environment for MLcps](#binder-environment-for-mlcps) section.  
 
 1. Python >=3.8
 2. R >=4.0. R should be accessible through terminal/command prompt.
