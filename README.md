@@ -1,8 +1,11 @@
 # MLcps
 **MLcps: Machine Learning cumulative performance score** is a performance metric that combines multiple performance metrics and reports a cumulative score enabling researchers to compare the ML models using a single metric. MLcps provides a comprehensive platform to identify the best-performing ML model on any given dataset.
 
-# Prerequisites
-#### ***Note***: If you want to use MLcps without installing it on your local machine, please follow [Binder environment for MLcps](#binder-environment-for-mlcps) section.  
+### ***Note***:  
+
+If you want to use MLcps without installing it on your local machine, please follow [Binder environment for MLcps](#binder-environment-for-mlcps) section. 
+
+# Prerequisites 
 
 1. Python >=3.8
 2. R >=4.0. R should be accessible through terminal/command prompt.
@@ -19,7 +22,7 @@ pip install MLcps
 
 # Binder environment for MLcps
 
-As an alternative, we have built a binder computational environment where all the requirements are pre-installed for MLcps.
+As an alternative, we have built a binder computational environment where all the requirements for MLcps are pre-installed.
 It allows the user to ***use MLcps without any installation***.
 
 Please click here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FunctionalUrology/MLcps.git/main) to launch the Jupyterlab server where you can run the already available example Jupyter notebook for MLcps analysis. It may take a while to launch! You can also upload your data or notebook to perform the analysis.
