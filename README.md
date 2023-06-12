@@ -1,7 +1,19 @@
-# MLcps
+- [Summary](#summary)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Binder environment for MLcps](#binder-environment-for-mlcps)
+- [Usage](#usage)
+     - [Quick Start](#quick-start)
+     - [Example 0.1](#example-01)
+     - [Example 1](#example-1)
+     - [Example 2](#example-2)
+     - [Example 3](#example-3)
+- [Links](#links)
+
+# Summary
 **MLcps: Machine Learning cumulative performance score** is a performance metric that combines multiple performance metrics and reports a cumulative score enabling researchers to compare the ML models using a single metric. MLcps provides a comprehensive platform to identify the best-performing ML model on any given dataset.
 
-### ***Note***:  
+#### ***Note***:  
 
 If you want to use MLcps without installing it on your local machine, please follow [Binder environment for MLcps](#binder-environment-for-mlcps) section. 
 
@@ -29,7 +41,8 @@ Please click here [![Binder](https://mybinder.org/badge_logo.svg)](https://mybin
 
 
 # Usage
-#### **Quick Start**
+
+## **Quick Start**
 ```python
 #import MLcps
 from MLcps import getCPS
@@ -40,7 +53,7 @@ cps=getCPS.calculate(object)
 > * ***object***: A pandas dataframe where rows are different metrics scores and columns are different ML models. **Or** a GridSearchCV object.
 > * ***cps***: A pandas dataframe with models name and corresponding MLcps. **Or** a GridSearchCV object.
 
-#### **Example 0.1**
+## **Example 0.1**
 Create Input dataframe for MLcps
 
 ```python
@@ -80,7 +93,7 @@ metrics=pd.DataFrame(metrics_list,index=["SVM rbf","SVM linear","KNN"],
 print(metrics)
 ```
 
-#### **Example 1**
+## **Example 1**
 Calculate MLcps for a pandas dataframe where rows are different metrics scores and columns are different ML models.
 
 ```python
@@ -110,7 +123,7 @@ fig
 ```
 
 
-#### **Example 2**
+## **Example 2**
 Calculate MLcps using the mean test score of all the metrics available in the given GridSearch object and return an updated GridSearch object. Returned GridSearch object contains ```mean_test_MLcps``` and ```rank_test_MLcps``` arrays, which can be used to rank the models similar to any other metric.
 
 ```python
@@ -131,7 +144,7 @@ print("MLcps: ",gsObj_updated.cv_results_["mean_test_MLcps"])
 print("Ranking based on MLcps:",gsObj_updated.cv_results_["rank_test_MLcps"])
 ```  
 
-#### **Example 3**
+## **Example 3**
 Certain metrics are more significant than others in some cases. As an example, if the dataset is imbalanced, a high F1 score might be preferred to higher accuracy. A user can provide weights for metrics of interest while calculating MLcps in such a scenario. Weights should be a dictionary object where keys are metric names and values are corresponding weights. It can be passed as a parameter in ```getCPS.calculate()``` function.
 
   * **3.a)**
