@@ -12,7 +12,7 @@
 
 # Summary
 **MLcps: Machine Learning cumulative performance score** is a novel evaluation metric proposed for assessing the performance of machine learning models in classification problems. MLcps integrates multiple pre-computed evaluation metrics into a unified score, enabling a comprehensive assessment of the model's strengths and weaknesses. MLcps was tested on four publicly available datasets, demonstrating its ability to evaluate the overall performance and robustness of the models. By utilizing MLcps, researchers and practitioners can save valuable time and effort by relying on a single value to assess their model's performance, rather than comparing multiple individual metrics. The MLcps metric is available as a Python package, and examples of its usage can be found below. 
-
+ 
 #### ***Note***:  
 
 If you want to use MLcps without installing it on your local machine, please follow [Binder environment for MLcps](#binder-environment-for-mlcps) section. 
