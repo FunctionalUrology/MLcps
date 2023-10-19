@@ -9,7 +9,7 @@
      - [Example 2](#example-2)
      - [Example 3](#example-3)
 - [Links](#links)
-
+- [Reproduce MLcps Manuscript Figures](#reproduce-mlcps-manuscript-figures)
 # Summary
 **MLcps: Machine Learning cumulative performance score** is a novel evaluation metric proposed for assessing the performance of machine learning models in classification problems. MLcps integrates multiple pre-computed evaluation metrics into a unified score, enabling a comprehensive assessment of the model's strengths and weaknesses. MLcps was tested on four publicly available datasets, demonstrating its ability to evaluate the overall performance and robustness of the models. By utilizing MLcps, researchers and practitioners can save valuable time and effort by relying on a single value to assess their model's performance, rather than comparing multiple individual metrics. The MLcps metric is available as a Python package, and examples of its usage can be found below. 
  
@@ -208,6 +208,10 @@ print("Ranking based on MLcps:",gsObj_updated.cv_results_["rank_test_MLcps"])
 -->
 * MLcps source code and a Jupyter notebook with sample analyses is available on the **[MLcps GitHub repository](https://github.com/FunctionalUrology/MLcps/blob/main/Example-Notebook.ipynb)** and binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FunctionalUrology/MLcps.git/main).
 * Please use the  **[MLcps GitHub](https://github.com/FunctionalUrology/MLcps/issues)** repository to report all the issues.
+
+# Reproduce MLcps Manuscript Figures
+* To reproduce the MLcps manuscript figures, please refer to the **[manuscriptFigures](https://github.com/FunctionalUrology/MLcps/tree/main/manuscriptFigures/)** folder.
+
 
 <!--# Citations Information
 If **MLcps** in any way help you in your research work, please cite the MLcps publication.
