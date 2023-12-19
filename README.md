@@ -213,6 +213,9 @@ print("Ranking based on MLcps:",gsObj_updated.cv_results_["rank_test_MLcps"])
 * To reproduce the MLcps manuscript figures, please refer to the **[manuscriptFigures](https://github.com/FunctionalUrology/MLcps/tree/main/manuscriptFigures/)** folder.
 
 
-<!--# Citations Information
-If **MLcps** in any way help you in your research work, please cite the MLcps publication.
-***-->
+# Citations Information
+If **MLcps** in any way helps you in your research work, please cite the MLcps publication.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Akshay Akshay, Masoud Abedi, Navid Shekarchizadeh, Fiona C Burkhard, Mitali Katoch, Alex Bigger-Allen, Rosalyn M Adam, Katia Monastyrskaya, Ali Hashemi Gheinani, MLcps: machine learning cumulative performance score for classification problems, GigaScience, Volume 12, 2023, giad108, https://doi.org/10.1093/gigascience/giad108
+
+
