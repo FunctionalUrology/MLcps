@@ -214,8 +214,10 @@ print("Ranking based on MLcps:",gsObj_updated.cv_results_["rank_test_MLcps"])
 
 
 # Citations Information
-If **MLcps** in any way helps you in your research work, please cite the MLcps publication.
+If **MLcps** in any way helps you in your research work, please cite the MLcps publication and preprint.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Akshay Akshay, Masoud Abedi, Navid Shekarchizadeh, Fiona C Burkhard, Mitali Katoch, Alex Bigger-Allen, Rosalyn M Adam, Katia Monastyrskaya, Ali Hashemi Gheinani, MLcps: machine learning cumulative performance score for classification problems, GigaScience, Volume 12, 2023, giad108, https://doi.org/10.1093/gigascience/giad108
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Akshay Akshay, Masoud Abedi, Navid Shekarchizadeh, Fiona C Burkhard, Mitali Katoch, Alex Bigger-Allen, Rosalyn M Adam, Katia Monastyrskaya, Ali Hashemi Gheinani, MLcps: machine learning cumulative performance score for classification problems, bioRxiv 2022.12.01.518728; doi: https://doi.org/10.1101/2022.12.01.518728
 
 
